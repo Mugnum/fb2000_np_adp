@@ -1,0 +1,48 @@
+$if(%isplaying%,
+$if(%ispaused%,,
+
+$if(%album%!='?' or %date%!='?',
+$iflonger(%album%+%date%,6
+,//LONG
+//debug LEN T: $len(%album artist%+%title%) $crlf()
+//debug LEN A: $len($cut(%album%,38)+%date%) $crlf()
+
+$iflonger(%album artist%+%title%,$len($cut(%album%,38)+%date%)
+,//Album first
+'['
+$if(%date%!='?',%date%,)
+$if(%album%!='?',
+$if(%date%!='?',: ,)
+$iflonger(%album%,38,$cut(%album%,38)...,%album%)
+,)
+']'
+$crlf()
+%album artist% - %title%
+
+,//Title first
+%album artist% - %title%
+$crlf()
+'['
+$if(%date%!='?',%date%,)
+$if(%album%!='?',
+$if(%date%!='?',: ,)
+$iflonger(%album%,38,$cut(%album%,38)...,%album%)
+,)
+']'
+)
+
+,//SHORT
+%album artist% - %title%
+' ['
+$if(%date%!='?',%date%,)
+$if(%album%!='?',
+$if(%date%!='?',: ,)
+$iflonger(%album%,38,$cut(%album%,38)...,%album%)
+,)
+']'
+)
+,//No album/date
+%album artist% - %title%)
+
+),
+)

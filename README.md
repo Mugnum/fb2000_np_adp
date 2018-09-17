@@ -5,7 +5,7 @@ A line length adaptive script for Now Playing plugin in Foobar2000.
 The plugin exports metadata information in a text file, which you can use for text capture in OBS Studio.
 
 This script displays artist-title and album-date in separate lines, ordering them by length.
-Too short album length (under 6 chars) is added to artist-title line in brackets. Too long album length gets truncated.
+Too short album name (under 6 chars) is added to artist-title line in brackets. Too long album name gets truncated.
 
 ## Preview
 ![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/now_playing_demonstration.png)

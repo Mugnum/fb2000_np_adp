@@ -14,7 +14,7 @@ Too short album name (under 6 chars) is added to artist-title line in brackets. 
 
 ## Requirements
 1. [Foobar2000](https://www.foobar2000.org/)
-2. [Now Playing Simple plugin](http://skipyrich.com/wiki/Foobar2000:Now_Playing_Simple)
+2. [Now Playing Simple plugin](http://skipyrich.com/wiki/Foobar2000:Now_Playing_Simple) [**(mirrored link)**](https://github.com/syrtsevser/fb2000_np_adp/raw/master/foo_np_simple.rar)
 
 ## Usage
 After installing Now Playing Simple, go in **Library->Configure** and nagivate to **Tools->Now Playing Simple**.

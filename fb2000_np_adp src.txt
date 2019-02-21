@@ -1,5 +1,7 @@
-//Foobar doesn't like formatted text, which is why main file looks messy
-//When you're done editing this code, make sure to remove any tabulation (select and shift+tab in notepad++)
+//Foobar doesn't like formatted text, which is why main file looks a bit messy
+//When you're done editing this code, make sure to remove all tabulation (select and shift+tab in notepad++)
+
+//Official documentation: https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Title_Formatting_Reference
 
 $if(%isplaying%,
 	$if(%ispaused%,,

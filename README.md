@@ -8,7 +8,7 @@ This script displays artist-title and album-date in separate lines, ordering the
 Too short album name (under 6 chars) is added to artist-title line in brackets. Too long album name gets truncated.
 
 ## Preview
-![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/now_playing_demonstration.png)
+![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/presentation/now_playing_demonstration.png)
 
 <sub><sup>Was something I wanted to do long ago but managed to get working in under 20 minutes. You may use as a reference in your endeavours.</sub></sup>
 
@@ -18,7 +18,7 @@ Too short album name (under 6 chars) is added to artist-title line in brackets. 
 
 ## Usage
 After installing Now Playing Simple, go in **Library->Configure** and nagivate to **Tools->Now Playing Simple**.
-[![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/installation_small.png)](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/installation.png)
+[![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/presentation/installation_small.png)](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/presentation/installation.png)
 
 Check **Save to file** and choose **output file** path. Paste [this text](https://github.com/syrtsevser/fb2000_np_adp/blob/master/fb2000_np_adp.txt) in **Formatting string** textbox.
 

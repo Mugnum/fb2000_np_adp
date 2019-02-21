@@ -1,0 +1,51 @@
+//Foobar doesn't like formatted text, which is why main file looks messy
+//When you're done editing this code, make sure to remove any tabulation (select and shift+tab in notepad++)
+
+$if(%isplaying%,
+	$if(%ispaused%,,
+		$if(%album%!='?' or %date%!='?',
+			$iflonger(%album%+%date%,6
+				,//#1: Long (two lines)
+				//debug LEN T: $len(%album artist%+%title%) $crlf()
+				//debug LEN A: $len($cut(%album%,38)+%date%) $crlf()
+
+				$iflonger(%album artist%+%title%,$len($cut(%album%,38)+%date%)
+					,//#1.1: Album first
+					'['
+					$if(%date%!='?',%date%,)
+					$if(%album%!='?',
+					$if(%date%!='?',: ,)
+					$iflonger(%album%,38,$cut(%album%,38)...,%album%)
+					,)
+					']'
+					$crlf()
+					%album artist% - %title%
+
+					,//#1.2: Title first
+					%album artist% - %title%
+					$crlf()
+					'['
+					$if(%date%!='?',%date%,)
+					$if(%album%!='?',
+					$if(%date%!='?',: ,)
+					$iflonger(%album%,38,$cut(%album%,38)...,%album%)
+					,)
+					']'
+				)
+
+				,//#2: Short (one line)
+				%album artist% - %title%
+				' ['
+				$if(%date%!='?',%date%,)
+				$if(%album%!='?',
+				$if(%date%!='?',: ,)
+				$iflonger(%album%,38,$cut(%album%,38)...,%album%)
+				,)
+				']'
+			)
+			
+			,//#3: No album and date info
+			%album artist% - %title%
+		)
+	),
+)

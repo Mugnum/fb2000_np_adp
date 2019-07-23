@@ -1,20 +1,19 @@
 # fb2000_np_adp
 
-A line length adaptive script for Now Playing plugin in Foobar2000.
-
-The plugin exports metadata information in a text file, which you can use for text capture in OBS Studio.
+A line length adaptive script for Skipy Rich's Now Playing Simple plugin in Foobar2000.
 
 This script displays artist-title and album-date in separate lines, ordering them by length.
-Too short album name (under 6 chars) is added to artist-title line in brackets. Too long album name gets truncated.
+
+Too short album name is added to artist-title line in brackets; too long album name gets truncated.
 
 ## Preview
 ![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/Presentation/now_playing_demonstration.png)
 
-<sub><sup>Was something I wanted to do long ago but managed to get working in under 20 minutes. You may use as a reference in your endeavours.</sub></sup>
+<sub>Was something I wanted to have long ago but managed to get working in under 20 minutes. Feel free to use as a reference in your endeavours.</sub>
 
 ## Requirements
-1. [Foobar2000](https://www.foobar2000.org/)
-2. [Now Playing Simple plugin](http://skipyrich.com/wiki/Foobar2000:Now_Playing_Simple) [**(mirrored link)**](https://github.com/syrtsevser/fb2000_np_adp/raw/master/foo_np_simple.rar)
+1. [Foobar2000](https://www.foobar2000.org)
+2. [Now Playing Simple plugin](http://skipyrich.com/wiki/Foobar2000:Now_Playing_Simple)
 
 ## Usage
 After installing Now Playing Simple, go in **Library->Configure** and nagivate to **Tools->Now Playing Simple**.

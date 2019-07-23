@@ -7,7 +7,7 @@ This script displays artist-title and album-date in separate lines, ordering the
 Too short album name is added to artist-title line in brackets; too long album name gets truncated.
 
 ## Preview
-![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/Presentation/now_playing_demonstration.png)
+![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/Presentation/demonstration.png)
 
 <sub>Was something I wanted to have long ago but managed to get working in under 20 minutes. Feel free to use as a reference in your endeavours.</sub>
 

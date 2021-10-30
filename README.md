@@ -1,6 +1,6 @@
 # fb2000_np_adp
 
-A line length adaptive script for Skipy Rich's Now Playing Simple plugin in Foobar2000.
+A line length adaptive script for SkipyRich's Now Playing Simple plugin in Foobar2000.
 
 This script displays artist-title and album-date in separate lines, ordering them by length.
 

@@ -8,7 +8,6 @@ Too short album name is added to artist-title line in brackets; too long album n
 
 ## Preview
 ![alt text](https://raw.githubusercontent.com/syrtsevser/fb2000_np_adp/master/Presentation/demonstration.png)
-
 <sub>Was something I wanted to have long ago but managed to get working in under 20 minutes.</sub>
 
 ## Requirements
